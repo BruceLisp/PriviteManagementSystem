@@ -1,0 +1,133 @@
+#lunbotu {
+	background:rgba(0, 255, 156,0.0);
+}
+.jjl-lunbo {
+	height: 470px;
+	position: relative;
+	overflow: hidden;
+}
+.jjl-lunbo .btn{
+	position: absolute;
+	display: block;
+	padding:0 3px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.1);
+	z-index: 2;
+	
+}
+.jjl-lunbo .btn:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+.jjl-lunbo .left-btn {
+	left:0;
+	top:50%;
+	margin-top: -20px;
+}
+.jjl-lunbo .right-btn {
+	right:0;
+	top:50%;
+	margin-top: -20px;
+}
+.jjl-lunbo i{
+	font-family: "iconfont" !important;
+  	font-size: 16px;
+  	font-style: normal;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	line-height:40px ;
+  	color:#FFFFFF;
+  	
+}
+.jjl-lunbo .bottom_circle {
+	position: absolute;
+	/*background: red;*/
+	left:47px;
+	bottom: 18px;
+	z-index: 2;
+}
+.jjl-lunbo .bottom_circle li{
+	float:left;
+	width:4px;
+	height: 4px;
+	border-radius: 5px;
+	background: rgba(255, 255, 255,0);
+	border:3px solid  rgba(255, 255, 255,0.8);
+	margin:3px;
+}
+.jjl-lunbo .bottom_circle .current{
+	background: rgba(255, 255, 255,1);
+}
+
+
+.jjl-lunbo .imgs-hd {
+	position: absolute; 
+	top:0px;
+	left:0px;
+	height: 100%;
+	width:1000%;
+	z-index: 1;
+
+}
+
+.jjl-lunbo .imgs-hd li img{
+	width:1190px;
+	height:100%;
+}
+
+
+
+
+
+#product-module {
+	background: #00FF9C;
+	margin: 20px 0;
+	padding-bottom: 20px;
+}
+#product-module .product-shucai{
+	padding-top: 7px;
+}
+#product-module .product-hot{
+	margin: 20px auto;
+}
+
+#product-module .product-liangyou{
+	margin: 20px auto;
+}
+
+#product-module h2{
+	font-size: 14px;
+	font-weight: 400;
+	color:#363636;
+}
+#product-module .shucai-list{
+	overflow: hidden;
+}
+#product-module .item {
+	width:200px;
+	height: 290px;
+	background: #FFFFFF;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	padding: 15px;
+}
+#product-module .item img{
+	width:200px;
+	height:220px;
+	
+}
+#product-module .item p{
+	font-size: 13px;
+	line-height:20px;
+	color:#363636;
+}
+#product-module .item span{
+	font-size: 14px;
+	color:orangered;
+}
+#product-module .item:nth-child(5n+1){
+	margin-left: 0;
+}
+#product-module .item:nth-child(5n){
+	float: right;
+}

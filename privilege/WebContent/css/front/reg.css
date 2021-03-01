@@ -1,0 +1,37 @@
+body{
+	background: #00FF9C;
+}
+#reg{
+	width:750px;
+	height: 400px;
+	background: #FFFFFF;
+	margin: 80px auto 10px;
+	text-align: center;
+}
+#reg .logo {
+	margin-bottom: 10px;
+}
+#reg h1 {
+	font-size: 21px;
+	font-weight: 400;
+	color:#067E40;
+	margin-bottom: 30px;
+}
+#reg input {
+	text-align: left;
+	display: block;
+	border: 2px solid #067E40;
+	width:400px;
+	height: 30px;
+	margin-bottom: 15px;
+	padding-left:7px;
+	font-size: 13px;
+	color:rgba(6, 126, 64,0.7);
+	margin-left:160px;
+}
+#reg input[type='submit'] {
+	background: #067E40;
+	width:410px;
+	text-align: center;
+	color:#FFFFFF;
+}

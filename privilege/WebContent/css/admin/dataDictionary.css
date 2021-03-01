@@ -1,0 +1,102 @@
+*{margin:0;padding:0;}
+#data-dic{
+	height: 550px;
+	margin:20px 71px;
+	border:1px solid #63B8ED;
+	overflow: hidden;
+	width:80%;
+}
+#data-dic .data-type{
+	width:15%;
+	height: 500px;
+	float:left;
+}
+
+#data-dic .data-type-tit{
+	height: 30px;
+	background: #63B8ED;
+	border:1px solid #E7E7E7;
+	border-top: none;
+	border-left: none;
+	border-right: 1px solid #8FB5E7; 
+	
+	font-family: "iconfont" !important;
+  	font-size: 20px;
+  	font-style: normal;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	cursor:pointer;
+  	color:black;
+  	padding: 0 15px;
+  	line-height: 30px;
+}
+#data-dic .data-type-tit span{
+	font-size: 14px;
+	margin-left: 5px;
+}
+#data-dic ul{
+	list-style: none;
+	
+}
+#data-dic ul li{
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	border:1px solid #E7E7E7;
+	border-top: none;
+	padding:0 15px;
+	text-align: center;
+	border-right:1px solid #8FB5E7;
+}
+#data-dic ul li:last-child{
+	height: 550px;
+	overflow: hidden;
+}
+#data-dic ul li a{
+	text-decoration: none;
+	color:rgba(0,0,0,0.9);
+	cursor: pointer;
+}
+#data-dic .type-mes{
+	float:left;
+	height: 550px;
+	width:85%;
+}
+#data-dic .type-mes .data-mes-tit{
+	height: 30px;
+	background:#63B8ED;
+	
+	font-family: "iconfont" !important;
+  	font-size: 20px;
+  	font-style: normal;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	cursor:pointer;
+  	color:black;
+  	padding: 0 15px;
+  	line-height: 30px;
+} 
+#data-dic .type-mes .data-mes-tit span{
+	font-size: 14px;
+	margin-left: 5px;
+}
+#data-dic .type-mes .data-mes-btn{
+	margin: 4px;
+	border:1px solid  #E7E7E7;
+	height: 30px;
+	background: rgba(214, 227, 242,0.3);
+	line-height: 30px;
+	padding:0 7px;
+}
+#data-dic .type-mes .data-mes-btn button{
+	font-family: "iconfont" !important;
+  	font-size: 14px;
+  	font-style: normal;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	cursor:pointer;
+  	color:black;
+  	border:1px solid rgba(99, 184, 237);
+  	background: rgba(99, 184, 237,0.5);
+  	padding:0 7px;
+}

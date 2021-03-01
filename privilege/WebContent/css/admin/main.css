@@ -1,0 +1,64 @@
+body{margin:0; padding:0; font-size:12px;}
+
+#top{width:100%; height:60px; background:url(../../imgs/admin/main_04.gif);}
+
+#logo{width:311px; height:60px; background:url(../../imgs/admin/main_02.gif); float:left;}
+
+#user{ margin-top:38px; float:left; font-size:15px;}
+
+#main{width:100%;background:url(../../imgs/admin/main_bg.png) repeat-x;}
+
+#left{width:188px; float:left; background-image:url(../../imgs/admin/main_bg.png) ; background-repeat:repeat-x;}
+
+#left_menu{ width:184px;background:url(../../imgs/admin/main_07.png) no-repeat; height:52px; margin-left:4px;}
+
+#left_tree{width:184px; background:url(../../imgs/admin/main_19.gif); height:480px; margin-left:4px;}
+
+#globalNav{margin:0px;padding:0px;margin-left:5px;}
+
+#tree_text{ width:175px;margin-left:0px;overflow:auto;}
+
+#tree_text li {display: block;padding-left:15px; font-size:15px;margin-bottom:10px;line-height:25px;}
+
+#globalNav li{list-style: none; background:url(../../imgs/admin/z01.gif) no-repeat;}
+
+#globalNav li a{font-size:12px;}
+
+#globalNav li ul{margin:0px;padding:0px;background-color:white; display:none; }
+
+#globalNav li ul li{margin-top:10px;background-color:white;background-image:none;line-height:14px;}
+
+#tree_text li a {color:#000000;text-decoration:none;}
+
+#tree_down{height:17px; width:184px; margin-left:4px; margin-bottom:0px; background:url(../images/main_21.gif);}
+
+#right_top{height:35px;color:#fff;background-image:url(../../imgs/admin/main_09.png) ; background-repeat:repeat-x;}
+
+#img{height:26px; width:35px; float:left;padding-top:5px; text-align:center; cursor:pointer;}
+
+.imgtext{ float:left; display: block; margin-top:13px; margin-left:3px;cursor:pointer;}
+
+.imgtext2{ float:left; display: block; margin-top:11px; margin-left:40px;}
+
+.weather {float:left; display: block; margin-top:11px; margin-left:5px; width:500px;}
+
+#loginout{float:right; margin-right:35px;padding-top:5px; text-align:center; width:80px;}
+
+#loginoutimg{width:26px; height:26px; float:left;}
+
+.logintext{display: block; padding-top:9px; margin-left:3px; float:left; cursor:pointer;}
+
+#globalNav a{
+	width: 120px;
+	display: block;
+}
+
+a { blr:expression(this.onFocus=this.blur()) }
+a { outline:none; }
+
+
+
+
+
+
+

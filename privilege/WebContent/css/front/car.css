@@ -1,0 +1,111 @@
+.car h2{
+	font-size:17px;
+	color:#047839;	
+}
+.car .car_title {
+	height: 45px;
+	background: #F3F3F3;
+	border:1px solid #E9E9E9;
+	line-height: 45px;
+	color:#047839;
+	margin-bottom: 20px;
+}
+.car .car_title input{
+	margin:0 7px 0 21px;
+}
+.car .car_title .pro_name{
+	margin: 0 450px 0 70px;
+}
+.car .car_title .pro_price{
+	margin-right: 67px;
+}
+.car .car_title .pro_num{
+	margin-right: 100px;
+}
+.car .car_title .pro_total{
+	margin-right: 100px;
+}
+.car .car_item .item{
+	height: 110px;
+	background: #FFF4E8;
+	line-height: 110px;
+	border:1px solid #E9E9E9;
+	color:#047839;
+	font-size: 13px;
+	border-bottom: none;
+}
+.car .car_item .item input[type='checkbox']{
+	margin:0 21px;
+
+}
+.car .car_item .item img {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 15px;
+	margin-left: 40px;
+}
+.car .car_item .item .pro_title{
+	font-size: 13px;
+	color:rgba(0,0,0,0.7);
+	width: 400px;
+	display: inline-block;
+	line-height: 21px;
+	margin:0 21px;
+	overflow-wrap: break-word;
+}
+.car .car_item .pro_price {
+	margin-right: 67px;
+}
+.car .car_item .pro_num{
+	margin-right: 60px;
+	font-size: 0;
+}
+.car .car_item .pro_num button ,.car .car_item .pro_num input{
+	font-size:13px;
+	height: 22px;
+	background: #FFFFFF;
+	border:1px solid #939393;
+	outline: none;
+}
+.car .car_item .pro_num button{
+	width: 15px;
+}
+.car .car_item .pro_num input{
+	height:20px;
+	border-right: none;
+	border-left: none;
+	width:25px;
+	padding:0 10px;
+}
+.car .car_item .pro_total{
+	margin-right:105px;
+}
+.car .car_item input[type='button']{
+	color:rgba(0,0,0,0.8);
+}
+.car .car_sum {
+	height: 50px;
+	border:1px solid #E9E9E9;
+	margin: 21px auto;
+	line-height: 50px;
+	color:rgba(0,0,0,0.8);
+	font-size: 13px;
+}
+.car .car_sum input[type='checkbox']{
+	margin:0 7px 0 21px;
+}
+.car .car_sum button {
+	margin-left: 15px;
+	color:rgba(0,0,0,0.8);
+	background: #FFF4E8;
+	height: 21px;
+	padding: 0 15px;
+}
+.car .car_sum .pro_number{
+	margin-left: 500px;
+	color:rgba(0,0,0,0.6);
+}
+.car .car_sum .pro_sum{
+	margin-left: 21px;
+	color:rgba(0,0,0,0.6);
+}

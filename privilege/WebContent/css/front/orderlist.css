@@ -1,0 +1,132 @@
+body{
+	background: #F5F5F5;
+}
+#order_list_tit{
+	height: 60px;
+	background: #FFFFFF;
+	margin: 20px auto;
+}
+#order_list_tit span{
+	padding:20px;
+	line-height: 60px;
+	font-size: 13px;
+	font-weight: 800;
+	color:#666666;
+}
+
+#order_list {
+	background: #FFFFFF;
+	overflow: hidden;
+}
+#order_list .list_tit {
+	height: 30px;
+	margin:20px;
+	background: #F5F5F5;
+	line-height: 30px;
+	font-size: 13px;
+	color:#666666;
+	
+}
+#order_list .list_tit span{
+	float: left;
+	text-align: center;
+	width: 140px;
+}
+#order_list .list_tit span:nth-child(1){
+	width: 500px;
+}
+#order_list .list_item {
+	
+	border:1px solid #E5E5E5;
+	margin: 20px;
+	overflow: hidden;
+	
+}
+#order_list .list_item .list_item_tit {
+	height:30px;
+	background: #F5F5F5;
+	font-size: 13px;
+	line-height: 30px;
+	padding:0 17px;
+	color:#AAAAAA;
+}
+#order_list .list_item .list_item_tit span {
+	float: left;
+	margin-right: 40px;
+}
+#order_list .list_item .list_item_tit i {
+	float: right;
+	margin-right: 140px;
+	font-family: "iconfont" !important;
+  	font-size: 16px;
+  	font-style: normal;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	line-height:30px ;
+  	color:#AAAAAA;
+}
+#order_list .list_item .list_item_content div{
+	float: left;
+	text-align: center;
+	width: 150px;
+/*	height: 120px;*/
+	border-right:1px solid #E5E5E5;
+	
+}
+#order_list .list_item .list_item_content div:nth-child(1){
+	width: 520px;
+}
+#order_list .list_item .list_item_content div:nth-child(n+2){
+	border: none;
+}
+#order_list .list_item_content .pro div{
+	width:500px;
+}
+
+#order_list .list_item_content .pro img{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin: 20px;
+	border:1px solid #E5E5E5;
+}
+#order_list .list_item_content .pro span{
+	float:left;
+	margin: 20px;
+	font-size: 13px;
+	width: 230px;
+	text-align: left;
+	color:rgba(0,0,0,0.7);
+	line-height: 21px;
+}
+#order_list .list_item_content .pro i{
+	float:left;
+	margin: 20px;
+	font-size: 13px;
+	font-style: normal;
+	text-align: left;
+	color:rgba(0,0,0,0.7);
+	line-height: 21px;
+}
+
+#order_list .list_item_content .shouhuoren span,
+#order_list .list_item_content .shouhuojine span,
+#order_list .list_item_content .state span{
+	float:left;
+	margin: 20px 20px 10px;
+	font-size: 13px;
+	font-style: normal;
+	text-align: left;
+	color:rgba(0,0,0,0.7);
+	line-height: 21px;
+}
+
+#order_list .list_item_content .state a{
+	float:left;
+	margin: 0 20px;
+	font-size: 13px;
+	font-style: normal;
+	text-align: left;
+	color:red;
+	line-height: 21px;
+}

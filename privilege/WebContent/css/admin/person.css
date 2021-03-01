@@ -1,0 +1,71 @@
+*{margin:0;padding:0;}
+#show-mes{
+	width:60%;
+	margin:0 auto;
+	height: 150px;
+	border:2px solid #63B8ED;
+	padding:20px 70px;
+}
+#show-mes .left{
+	float:left;
+}
+#show-mes .item .tit{
+	float:left;
+	width:130px;
+	font-size: 13px;
+	height: 22px;
+	line-height: 22px;
+}
+#show-mes .item .content{
+	float:left;
+	font-size: 13px;
+	height: 22px;
+	line-height: 22px;
+}
+#show-mes .item .content input{
+	width:250px;
+	height:auto;
+	border: #91c0e3 1px solid;
+	background-color: #FFFFFF;
+	color: #004779;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../../iconfont/iconfont.eot');
+  src: url('../../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../../iconfont/iconfont.woff2') format('woff2'),
+      url('../../iconfont/iconfont.woff') format('woff'),
+      url('../../iconfont/iconfont.ttf') format('truetype'),
+      url('../../iconfont/iconfont.svg#iconfont') format('svg');
+}
+#show-mes .item .content a{
+	font-family: "iconfont" !important;
+  	font-size: 25px;
+  	font-style: normal;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	cursor:pointer;
+  	text-decoration: none;
+}
+#show-mes .item .content a i{
+	font-size:14px;
+	font-style: normal;
+	vertical-align: top;
+	
+}
+#show-mes .item .content button{
+	width:53px;
+	height:27px;
+	background: pink;
+	border:1px solid blue;
+}
+#show-mes .right{
+	width:100px;
+	height: 100px;
+	float:right;
+	margin-right: 100px;
+}
+#show-mes .right img{
+	width: 100%;
+	height: 100%;
+}

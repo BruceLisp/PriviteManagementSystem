@@ -1,0 +1,81 @@
+#product-module {
+	background: #00FF9C;
+	margin: 20px 0;
+	padding-bottom: 50px;
+}
+#product-module .product-shucai{
+	padding-top: 7px;
+}
+#product-module .product-hot{
+	margin: 20px auto;
+}
+
+#product-module .product-liangyou{
+	margin: 20px auto;
+}
+
+#product-module h2{
+	font-size: 14px;
+	font-weight: 400;
+	color:#363636;
+}
+#product-module .shucai-list{
+	overflow: hidden;
+}
+#product-module .item {
+	width:200px;
+	height: 290px;
+	background: #FFFFFF;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	padding: 15px;
+}
+#product-module .item img{
+	width:200px;
+	height:220px;
+	
+}
+#product-module .item p{
+	font-size: 13px;
+	line-height:20px;
+	color:#363636;
+}
+#product-module .item span{
+	font-size: 14px;
+	color:orangered;
+}
+#product-module .item:nth-child(5n+1){
+	margin-left: 0;
+}
+#product-module .item:nth-child(5n){
+	float: right;
+}
+#product-module .page{
+	float:right;
+	margin: 15px 0;
+}
+#product-module .page a{
+	float:left;
+	background: #00FF9C;
+	border:1px solid #067E40;
+	margin-left: 5px;
+	padding:0 15px;
+	font-size: 13px;
+	height: 25px;
+	line-height: 25px;
+	color:#067E40;
+}
+#product-module .page span{
+	float:left;
+	font-size: 13px;
+	color:#067E40;
+	line-height: 25px;
+	margin: 0 10px;
+}
+#product-module select{
+	float:left;
+	color:#067E40;
+	width:40px;
+}
+

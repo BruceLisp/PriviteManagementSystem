@@ -1,0 +1,266 @@
+body {
+	margin:0px;
+	padding:0px;
+	font-size:15px;
+}
+
+
+#right_font{ margin:0px; padding:0px; padding-left:30px; width:97%; padding-top:10px;height:28px; background-image:url(../../imgs/admin/main_10.gif) ; background-repeat:repeat-x;}
+#right_font div {float:left;width:6px;height:6px;background:url(../../imgs/admin/main_14.gif) no-repeat;margin-right:12px;margin-top:5px;};
+#right_font img {padding-right:8px; margin-left:15px;}
+#right_font span {font-weight:bold;}
+
+
+.table {border-collapse:collapse; border:1px solid #385A70; width:90%; margin:0 auto;}
+.table th{padding-left:0.5em; border:1px solid #E7E7E7;height:28px; background-color: #63B8ED; font-size:15px;font-weight:normal;color:#ffffff;} 
+.table td{padding:5px; border:1px solid #E7E7E7; height:22px;word-break: break-all;/*word-wrap: break-word;*/}
+.table tr:hover { background:#E8E8E8; }
+.table th a {display: block; color:#fffffe; }
+.table td a {
+	cursor:pointer;
+  	color:black;
+  	text-decoration: none;
+  	padding: 0 7px;
+}
+.searchdiv {height:40px;padding-top:10px;padding-left:15%;float:left;};
+.searchdiv input {width:180px; height:20px; border:solid 1px #385A70; font-size:11pt; margin-left:10px;}
+.searchdiv div {float:left;}
+
+.btn1 {float:left;margin-left:10px;background:url(../../imgs/admin/btn1.jpg) no-repeat; height:21px; width:80px; padding-top:4px; text-align:center; cursor:pointer}
+
+.del_t {
+	font-family: "iconfont" !important;
+  	font-size: 14px;
+  	font-style: normal;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	cursor:pointer;
+  	color:black;
+	text-align: center;
+}
+
+
+
+.qq {background:url(../../imgs/admin/qq.gif) no-repeat; height:16px; width:16px; float:left; margin-right:10px; cursor:pointer;}
+.email {background:url(../../imgs/admin/email.gif) no-repeat; height:13px; width:16px; float:left; margin-right:10px; cursor:pointer;}
+
+.tb_loading {background:url(../../imgs/admin/loading.gif) no-repeat;height:32px; width:32px; margin-top:20px; margin-bottom:20px;}
+
+
+.add_file {background:url(../../imgs/admin/add.png) no-repeat; height:16px; width:16px; float:left; margin-left:10px; margin-top:5px; cursor:pointer;}
+.remove_file {background:url(../../imgs/admin/remove.png) no-repeat; height:16px; width:16px; float:left; margin-left:10px; margin-top:5px; cursor:pointer;}
+.remove_01 {background:url(../../imgs/admin/icn-remove.png) no-repeat; height:12px; width:12px; float:left; margin-left:10px; margin-top:5px; cursor:pointer;}
+
+.file {background:url(../../imgs/admin/file.png) no-repeat; height:16px; width:16px; float:left; margin-left:10px; margin-top:5px; cursor:pointer;}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../../iconfont/iconfont.eot');
+  src: url('../../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../../iconfont/iconfont.woff2') format('woff2'),
+      url('../../iconfont/iconfont.woff') format('woff'),
+      url('../../iconfont/iconfont.ttf') format('truetype'),
+      url('../../iconfont/iconfont.svg#iconfont') format('svg');
+}
+.modify,.add,.moveUp,.moveDown,.selectAll,.confirm,.cancel,.reverse,.del,.enabled,.disabled,.privilege{
+	font-family: "iconfont" !important;
+  	font-size: 14px;
+  	font-style: normal;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	float:left; 
+  	margin-left:10px;
+  	cursor:pointer;
+  	color:black;
+  	background: rgba(99, 184, 237,0.5);
+  	border:1px solid rgba(99, 184, 237);
+  	padding: 0 7px;
+}
+.add-page{
+	border:1px solid #E7E7E7;
+	margin:15px 380px;
+	
+}
+.show{
+	width:300px;
+	height:220px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -110px;
+	border:solid 1px black;
+	opacity:1.0;
+	background-color:#ccc;
+	box-shadow:5px 5px 2px #888888;
+}
+	
+.hidden{
+	visibility:hidden;
+}
+.add-page-top{
+	height: 30px;
+	background: #63B8ED;
+	text-align: left;
+	line-height: 30px;
+	color:#FFFFFF;
+	padding:0 4px;
+}
+.add-page-form{
+	margin:20px 30px;
+}
+.add-page-input{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.add-page-input span{
+	float: left;
+	width: 80px;
+	font-size: 15px;
+	color:rgba(0,0,0,0.6);
+	height: 23px;
+	line-height: 23px;
+
+}
+.add-page-input input{
+	float:left;
+	border:1px solid #E7E7E7;
+	outline: none;
+	padding:0 7px;
+	height: 21px;
+	vertical-align: bottom;
+}
+.add-page-input a{
+	font-family: "iconfont" !important;
+  	font-size: 25px;
+  	font-style: normal;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	cursor:pointer;
+  	text-decoration: none;
+}
+.add-page-input input[type='checkbox']{
+	margin: 5 20px 0;
+	height: 10px;
+}
+.add-page-input i{
+	font-size: 15px;
+	color:rgba(0,0,0,0.6);
+	float: left;
+	font-style: normal;
+}
+.add-page-btn {
+	text-align: center;
+	height: 30px;
+	margin-bottom: 20px;
+	font-size: 0;
+}
+.add-page-btn a{
+	display: inline-block;
+	width:100px;
+	height: 30px;
+	background: #63B8ED;
+	border:1px solid #E7E7E7;
+	color:#FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 30px;
+	
+}
+.add-page-btn .save{
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.modify-page{
+	border:1px solid #E7E7E7;
+	margin:15px 380px;
+	
+}
+.modify-page-top{
+	height: 30px;
+	background: #63B8ED;
+	text-align: left;
+	line-height: 30px;
+	color:#FFFFFF;
+	padding:0 7px;
+}
+.modify-page-form{
+	margin:20px 30px;
+}
+.modify-page-input{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.modify-page-input a{
+	font-family: "iconfont" !important;
+  	font-size: 25px;
+  	font-style: normal;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	cursor:pointer;
+  	text-decoration: none;
+}
+.modify-page-input span{
+	float: left;
+	width: 80px;
+	font-size: 15px;
+	color:rgba(0,0,0,0.6);
+	height: 23px;
+	line-height: 23px;
+
+}
+.modify-page-input input{
+	float:left;
+	border:1px solid #E7E7E7;
+	outline: none;
+	padding:0 7px;
+	height: 21px;
+	vertical-align: bottom;
+}
+.modify-page-input input[type='checkbox']{
+	margin: 5 20px 0;
+	height: 10px;
+}
+.modify-page-input i{
+	font-size: 15px;
+	color:rgba(0,0,0,0.6);
+	float: left;
+	font-style: normal;
+}
+.modify-page-btn {
+	text-align: center;
+	height: 30px;
+	margin-bottom: 20px;
+	font-size: 0;
+}
+.modify-page-btn a{
+	display: inline-block;
+	width:100px;
+	height: 30px;
+	background: #63B8ED;
+	border:1px solid #E7E7E7;
+	color:#FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 30px;
+	
+}
+.modify-page-btn .save{
+	margin-right: 20px;
+}
+.error{color:red;}
+
+
+
+
+
+
+

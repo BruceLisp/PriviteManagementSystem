@@ -1,0 +1,66 @@
+#login-top{
+	height: 50px;
+
+	margin: 20px auto;
+}
+#login-top span{
+	vertical-align: top;
+	font-size: 31px;
+	padding:7px;
+	line-height: 50px;
+	color:rgba(0,0,0,0.6);
+	letter-spacing: 5px;
+	font-family: "楷体";
+	font-style: italic;
+}
+#login-main{
+	height: 430px;
+	margin-bottom: 30px;
+}
+#login-main .login-backimg{
+	height: 430px;
+	position: relative;
+}
+#login-main .login-backimg img{
+	width:100%;
+	height:100%;
+	opacity: 0.8;
+}
+#login-main .login{
+	width:310px;
+	height: 310px;
+	position: absolute;
+	background: #FFFFFF;
+	top:30px;
+	right:20px;
+	padding:20px;
+}
+#login-main .login h2{
+	font-size: 19px;
+	color:#067E40;
+	text-align: center;
+	font-weight: 400;
+	letter-spacing: 5px;
+}
+#login-main .login input{
+	display: block;
+	border: 2px solid #067E40;
+	width:300px;
+	height: 30px;
+	margin-bottom: 15px;
+	padding-left:7px;
+	font-size: 13px;
+	color:rgba(6, 126, 64,0.7);
+}
+#login-main .login input[type='submit']{
+	width:310px;
+	margin-top: 20px;
+	background:#067E40;
+	color:#FFFFFF;
+}
+#login-main span ,#login-main a {
+	font-size:11px;
+	color:color:rgba(6, 126, 64,0.7);
+
+}
+
